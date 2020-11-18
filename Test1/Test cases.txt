@@ -1,0 +1,31 @@
+1.  Verify that the login screen contains elements such as Username, Password, Login button.
+2.  Verify that User is able to Login with Valid Credentials
+3.  Verify that User is not able to Login with invalid Username and invalid Password
+4.  Verify that Enter/Tab key works as a substitute for the Sign in button
+5.  Verify that all the fields such as Username, Password has a valid placeholder
+6.  Verify that tab functionality is working properly or not
+7.  Verify that User is able to Login using all of the 4 provided Usernames.
+8.  Verify that cursor is focused on “Username” text box on the page load (login page)
+9.  Verify that User is not able to Login with Valid Username and invalid Password
+10. Verify that User is not able to Login with invalid Username and Valid Password
+11. Verify that User is not able to Login with blank Username or Password
+12. Verify that User is not able to Login with inactive credentials
+13. Verify that clicking on browser back button after successful login should not take User to log out mode
+14. Verify that clicking on browser back button after successful logout should not take User to logged in mode
+15. Verify that there is a limit on the total number of unsuccessful login attempts (No. of invalid attempts should be based on business logic. Based on the business logic, User will be asked to enter captcha and try again or user will be blocked)
+16. Verify that the password is in encrypted form when entered
+17. Verify the password can be copy-pasted
+18. Verify that encrypted characters in “Password” field should not allow deciphering if copied
+19. Verify that User should be able to login with the new password after changing the password
+20. Verify that User should not be able to login with the old password after changing the password
+21. Verify that spaces should not be allowed before any password characters attempted
+22. Verify that whether User is still logged in after series of actions such as sign in, close browser and reopen the application.
+23. Verify that the ways to retrieve the password if the User forgets the password	
+24. Verify that there is a timeout of the login session (Session Timeout)
+25. Verify that the logout link is redirected to login/home page
+26. Verify that User is redirected to appropriate page after successful login
+27. Verify that a validation message is displayed in case when User leaves Username or Password as blank	
+28. Verify that a validation message is displayed in case of exceeding the character limit of the Username and Password fields
+29. Verify that a validation message is displayed in case of entering special character in the Username and password fields
+30. Verify whether the login form is revealing any security information by viewing page source
+31. Verify that the login page is vulnerable to SQL injection
