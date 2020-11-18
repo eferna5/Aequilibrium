@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="FireFoxTest1(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Implementation.TestCase1">
+        <methods>
+          <include name="AequilibriumTC1"/>
+          <include name="SetupApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Implementation.TestCase1 -->
+    </classes>
+  </test> <!-- FireFoxTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

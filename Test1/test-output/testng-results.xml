@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Username field has displayed]]>
+    </line>
+    <line>
+      <![CDATA[Password field has displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login button has displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials did not work]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[Username Placeholder is correct]]>
+    </line>
+    <line>
+      <![CDATA[Password Placeholder is correct]]>
+    </line>
+    <line>
+      <![CDATA[Username field has displayed]]>
+    </line>
+    <line>
+      <![CDATA[Password field has displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login button has displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials did not work]]>
+    </line>
+    <line>
+      <![CDATA[Login is unsuccessful]]>
+    </line>
+    <line>
+      <![CDATA[Username Placeholder is correct]]>
+    </line>
+    <line>
+      <![CDATA[Password Placeholder is correct]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-11-16T23:54:58 EST" name="Suite" finished-at="2020-11-16T23:56:26 EST" duration-ms="88052">
+    <groups>
+    </groups>
+    <test started-at="2020-11-16T23:54:58 EST" name="ChromeTest1" finished-at="2020-11-16T23:55:08 EST" duration-ms="9876">
+      <class name="Implementation.TestCase1">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase1@38cee291]" started-at="2020-11-16T23:54:58 EST" name="SetupApplication" finished-at="2020-11-16T23:55:07 EST" duration-ms="9116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC1()[pri:0, instance:Implementation.TestCase1@38cee291]" started-at="2020-11-16T23:55:07 EST" name="AequilibriumTC1" description="This test is to verify all Login page Web elements" finished-at="2020-11-16T23:55:07 EST" duration-ms="109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username field has displayed]]>
+            </line>
+            <line>
+              <![CDATA[Password field has displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login button has displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase1@38cee291]" started-at="2020-11-16T23:55:07 EST" name="tearDown" finished-at="2020-11-16T23:55:08 EST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase1 -->
+    </test> <!-- ChromeTest1 -->
+    <test started-at="2020-11-16T23:55:08 EST" name="ChromeTest2" finished-at="2020-11-16T23:55:17 EST" duration-ms="9847">
+      <class name="Implementation.TestCase2">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase2@2eae8e6e]" started-at="2020-11-16T23:55:08 EST" name="SetupApplication" finished-at="2020-11-16T23:55:16 EST" duration-ms="8574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC2()[pri:0, instance:Implementation.TestCase2@2eae8e6e]" started-at="2020-11-16T23:55:16 EST" name="AequilibriumTC2" description="This test is to verify Login works with Valid credentials" finished-at="2020-11-16T23:55:17 EST" duration-ms="622" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase2@2eae8e6e]" started-at="2020-11-16T23:55:17 EST" name="tearDown" finished-at="2020-11-16T23:55:17 EST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase2 -->
+    </test> <!-- ChromeTest2 -->
+    <test started-at="2020-11-16T23:55:17 EST" name="ChromeTest3" finished-at="2020-11-16T23:55:27 EST" duration-ms="9419">
+      <class name="Implementation.TestCase3">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase3@17f62e33]" started-at="2020-11-16T23:55:17 EST" name="SetupApplication" finished-at="2020-11-16T23:55:26 EST" duration-ms="8537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC3()[pri:0, instance:Implementation.TestCase3@17f62e33]" started-at="2020-11-16T23:55:26 EST" name="AequilibriumTC3" description="This test is to verify Login fails with invalid credentials" finished-at="2020-11-16T23:55:26 EST" duration-ms="227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials did not work]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase3@17f62e33]" started-at="2020-11-16T23:55:26 EST" name="tearDown" finished-at="2020-11-16T23:55:27 EST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase3 -->
+    </test> <!-- ChromeTest3 -->
+    <test started-at="2020-11-16T23:55:27 EST" name="ChromeTest4" finished-at="2020-11-16T23:55:37 EST" duration-ms="10048">
+      <class name="Implementation.TestCase4">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase4@543295b0]" started-at="2020-11-16T23:55:27 EST" name="SetupApplication" finished-at="2020-11-16T23:55:35 EST" duration-ms="8551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC4()[pri:0, instance:Implementation.TestCase4@543295b0]" started-at="2020-11-16T23:55:35 EST" name="AequilibriumTC4" description="This test is to verify Login functionality works by pressing Return/Enter" finished-at="2020-11-16T23:55:36 EST" duration-ms="832" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase4@543295b0]" started-at="2020-11-16T23:55:36 EST" name="tearDown" finished-at="2020-11-16T23:55:37 EST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase4 -->
+    </test> <!-- ChromeTest4 -->
+    <test started-at="2020-11-16T23:55:37 EST" name="ChromeTest5" finished-at="2020-11-16T23:55:47 EST" duration-ms="9617">
+      <class name="Implementation.TestCase5">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase5@58cbafc2]" started-at="2020-11-16T23:55:37 EST" name="SetupApplication" finished-at="2020-11-16T23:55:46 EST" duration-ms="8669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC5()[pri:0, instance:Implementation.TestCase5@58cbafc2]" started-at="2020-11-16T23:55:46 EST" name="AequilibriumTC5" description="This test is to verify Username and Password fields have placeholders" finished-at="2020-11-16T23:55:46 EST" duration-ms="43" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Placeholder is correct]]>
+            </line>
+            <line>
+              <![CDATA[Password Placeholder is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase5@58cbafc2]" started-at="2020-11-16T23:55:46 EST" name="tearDown" finished-at="2020-11-16T23:55:47 EST" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase5 -->
+    </test> <!-- ChromeTest5 -->
+    <test started-at="2020-11-16T23:55:47 EST" name="FireFoxTest1" finished-at="2020-11-16T23:55:54 EST" duration-ms="7677">
+      <class name="Implementation.TestCase1">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase1@663c9e7a]" started-at="2020-11-16T23:55:47 EST" name="SetupApplication" finished-at="2020-11-16T23:55:54 EST" duration-ms="6986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC1()[pri:0, instance:Implementation.TestCase1@663c9e7a]" started-at="2020-11-16T23:55:54 EST" name="AequilibriumTC1" description="This test is to verify all Login page Web elements" finished-at="2020-11-16T23:55:54 EST" duration-ms="78" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username field has displayed]]>
+            </line>
+            <line>
+              <![CDATA[Password field has displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login button has displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase1@663c9e7a]" started-at="2020-11-16T23:55:54 EST" name="tearDown" finished-at="2020-11-16T23:55:54 EST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase1 -->
+    </test> <!-- FireFoxTest1 -->
+    <test started-at="2020-11-16T23:55:54 EST" name="FireFoxTest2" finished-at="2020-11-16T23:56:02 EST" duration-ms="8280">
+      <class name="Implementation.TestCase2">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase2@4be29ed9]" started-at="2020-11-16T23:55:54 EST" name="SetupApplication" finished-at="2020-11-16T23:56:01 EST" duration-ms="6831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC2()[pri:0, instance:Implementation.TestCase2@4be29ed9]" started-at="2020-11-16T23:56:01 EST" name="AequilibriumTC2" description="This test is to verify Login works with Valid credentials" finished-at="2020-11-16T23:56:02 EST" duration-ms="801" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase2@4be29ed9]" started-at="2020-11-16T23:56:02 EST" name="tearDown" finished-at="2020-11-16T23:56:02 EST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase2 -->
+    </test> <!-- FireFoxTest2 -->
+    <test started-at="2020-11-16T23:56:02 EST" name="FireFoxTest3" finished-at="2020-11-16T23:56:11 EST" duration-ms="8077">
+      <class name="Implementation.TestCase3">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase3@75437611]" started-at="2020-11-16T23:56:02 EST" name="SetupApplication" finished-at="2020-11-16T23:56:09 EST" duration-ms="6849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC3()[pri:0, instance:Implementation.TestCase3@75437611]" started-at="2020-11-16T23:56:09 EST" name="AequilibriumTC3" description="This test is to verify Login fails with invalid credentials" finished-at="2020-11-16T23:56:10 EST" duration-ms="438" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials did not work]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase3@75437611]" started-at="2020-11-16T23:56:10 EST" name="tearDown" finished-at="2020-11-16T23:56:11 EST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase3 -->
+    </test> <!-- FireFoxTest3 -->
+    <test started-at="2020-11-16T23:56:11 EST" name="FireFoxTest4" finished-at="2020-11-16T23:56:18 EST" duration-ms="7632">
+      <class name="Implementation.TestCase4">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase4@15043a2f]" started-at="2020-11-16T23:56:11 EST" name="SetupApplication" finished-at="2020-11-16T23:56:17 EST" duration-ms="6861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC4()[pri:0, instance:Implementation.TestCase4@15043a2f]" started-at="2020-11-16T23:56:17 EST" name="AequilibriumTC4" description="This test is to verify Login functionality works by pressing Return/Enter" finished-at="2020-11-16T23:56:18 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is unsuccessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase4@15043a2f]" started-at="2020-11-16T23:56:18 EST" name="tearDown" finished-at="2020-11-16T23:56:18 EST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase4 -->
+    </test> <!-- FireFoxTest4 -->
+    <test started-at="2020-11-16T23:56:18 EST" name="FireFoxTest5" finished-at="2020-11-16T23:56:26 EST" duration-ms="7500">
+      <class name="Implementation.TestCase5">
+        <test-method is-config="true" signature="SetupApplication(java.lang.String)[pri:0, instance:Implementation.TestCase5@8519cb4]" started-at="2020-11-16T23:56:18 EST" name="SetupApplication" finished-at="2020-11-16T23:56:25 EST" duration-ms="6791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupApplication -->
+        <test-method signature="AequilibriumTC5()[pri:0, instance:Implementation.TestCase5@8519cb4]" started-at="2020-11-16T23:56:25 EST" name="AequilibriumTC5" description="This test is to verify Username and Password fields have placeholders" finished-at="2020-11-16T23:56:25 EST" duration-ms="31" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Placeholder is correct]]>
+            </line>
+            <line>
+              <![CDATA[Password Placeholder is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AequilibriumTC5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Implementation.TestCase5@8519cb4]" started-at="2020-11-16T23:56:25 EST" name="tearDown" finished-at="2020-11-16T23:56:26 EST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Implementation.TestCase5 -->
+    </test> <!-- FireFoxTest5 -->
+  </suite> <!-- Suite -->
+</testng-results>
