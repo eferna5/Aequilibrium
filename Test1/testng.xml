@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		
+		<!-- listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+	</listeners>
+
+	<test name="ChromeTest1">
+	<parameter name="browser" value="Chrome" />
+	
+		<classes>
+			<class name="Implementation.TestCase1" />
+		</classes>
+	</test> Test
+	<test name="ChromeTest2">
+	<parameter name="browser" value="Chrome" />
+	
+		<classes>
+			<class name="Implementation.TestCase2" />
+		</classes>
+	</test> Test
+	<test name="ChromeTest3">
+	<parameter name="browser" value="Chrome" />
+	
+		<classes>
+			<class name="Implementation.TestCase3" />
+		</classes>
+	</test> Test
+	<test name="ChromeTest4">
+	<parameter name="browser" value="Chrome" />
+	
+		<classes>
+			<class name="Implementation.TestCase4" />
+		</classes>
+	</test> Test
+	<test name="ChromeTest5">
+	<parameter name="browser" value="Chrome" />
+	
+		<classes>
+			<class name="Implementation.TestCase5" />
+		</classes>
+	</test> Test
+	
+	<test name="FireFoxTest1">
+	<parameter name="browser" value="Firefox" />
+	
+		<classes>
+			<class name="Implementation.TestCase1" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="FireFoxTest2">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="Implementation.TestCase2" />
+		</classes>
+	</test> Test
+	<test name="FireFoxTest3">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="Implementation.TestCase3" />
+		</classes>
+	</test> Test
+	<test name="FireFoxTest4">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="Implementation.TestCase4" />
+		</classes>
+	</test> Test
+	<test name="FireFoxTest5">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="Implementation.TestCase5" />
+		</classes>
+	</test> Test
+
+</suite> <!-- Suite -->
